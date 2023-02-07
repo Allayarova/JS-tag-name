@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <style>
+        .sayt{
+            width: 1100px;
+            height: 600px;
+            margin: auto;
+            border: 1px solid black;
+            padding: 15px;
+            position: relative;
+            
+        }
+        .reklama{
+            position: absolute;
+            top: 330px;
+            left: 100px;
+            background-color: aqua;
+            color: black;
+            width: 250px;
+            height: 250px;
+            padding: 15px;
+            animation-name: anim;
+            animation-duration: 2s;
+            animation-iteration-count: 5;
+
+            
+
+            
+
+
+        }
+        .reklama button{
+            position: absolute;
+            top: 5px;
+            right: 5px;
+           
+        }
+        @keyframes anim {
+            0%
+            {
+                margin-left: -400px;
+            }
+            
+            100%{
+
+                margin-left: 25px;
+            }
+            
+        }
+        
+    </style>
+    <div class="sayt">
+        <button onclick="ozgar1()">By tag names</button>
+        <button onclick="ozgar2()"> By class names</button>
+        
+
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nobis maiores sunt illum natus cupiditate optio quo maxime quia magnam!</h2>
+
+        <p class="matn1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus similique suscipit unde recusandae minima quia, perspiciatis ullam sapiente ducimus architecto, illum officia a consequatur quis amet possimus rem minus ipsum.
+            Nam dicta quos, consequatur consectetur facere qui quam praesentium pariatur unde voluptas alias molestiae neque eveniet perspiciatis maxime laborum sapiente magni deleniti recusandae excepturi. Aut modi officiis ipsa ducimus tempora.
+            Quisquam facere voluptas tenetur earum vel perferendis maiores. Natus ex tempore repellendus adipisci, iusto sequi provident fugit iste neque, eum, vel fugiat quae voluptatem culpa nostrum. Soluta, culpa doloribus? Eum.
+        </p>
+
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptas in repellendus nisi ipsum! Aliquid!</h2>
+
+       <p class="matn2">
+           Welcom to our world
+
+       </p>
+
+       <div class="reklama">
+           <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias maiores in hic ducimus, inventore harum, deserunt veniam ratione ut voluptas minus dolorem delectus aut vitae quis et neque quod sunt.
+               Minima molestiae nemo reprehenderit ipsum eaque ut nisi nesciunt harum quaerat voluptas repellendus quidem voluptates deleniti labore id inventore, explicabo quibusdam maiores, temporibus non at dolores nulla facere autem. Adipisci!
+           </p>
+
+           <button onclick="yop()"> &times; </button>
+       </div>
+    </div>
+</body>
+</html>
